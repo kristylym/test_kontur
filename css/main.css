@@ -1,0 +1,360 @@
+@media screen and (max-width: 992px) {
+  .logo,
+  .btn-header {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  .logo-text {
+    padding-right: 50px;
+    display: block;
+    text-align: center;
+  }
+  .number-phon {
+    display: block;
+    text-align: center;
+  }
+  .col-lg-4 {
+    width: 30%;
+  }
+  #main {
+    margin: 0 auto;
+  }
+  .content h1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    text-align: center;
+  }
+  #main ul li {
+    width: 220px;
+    margin: 0 auto;
+  }
+  .col-lg-4 {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .tab-wrapper {
+    width: 230px;
+  }
+  .imgnophoto img {
+    width: 180px;
+  }
+  .tab-menu {
+    width: 230px;
+  }
+  .tab-content {
+    width: 230px;
+    height: 460px;
+    background-color: #55606e;
+  }
+  .text-content {
+    display: block;
+    max-width: 180px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 698px) {
+  .col-lg-4 {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar-block {
+    width: 100%;
+  }
+  .product-block {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 446px) {
+  .col-lg-4 {
+    width: 200%;
+  }
+  .product-block {
+    margin-right: 50%;
+  }
+}
+
+body {
+  background-color: #e9e9e9;
+  font-size: 18px;
+  font-family: Ubuntu Light;
+  color: #55606e;
+}
+
+header {
+  margin-top: 30px;
+}
+
+.logo-text {
+  font-size: 24px;
+  padding-left: 50px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+.number-phon {
+  font-size: 20px;
+}
+
+.btn-header {
+  width: 220px;
+  height: 50px;
+  background-color: #55606e;
+  color: #fff;
+}
+
+.bg-dark {
+  background-color: #55606e;
+}
+
+.navbar-block {
+  background-color: #55606e;
+  margin-top: 35px;
+}
+
+.menu {
+  vertical-align: middle;
+  margin: 0;
+}
+
+.menu nav {
+  min-height: 50px;
+}
+
+.menu li {
+  font-family: Ubuntu;
+  font-weight: Regular;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li a {
+  color: #e9e9e9;
+}
+
+.menu li:hover {
+  background-color: #393c3e;
+}
+
+.menu li:hover a {
+  color: #66c3bc;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #55606e;
+  border-radius: 10px;
+}
+
+.carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  margin: 3px;
+  background-color: #66c3bc;
+}
+
+.all-content {
+  margin-top: 30px;
+}
+
+.sidebar-name {
+  width: 220px;
+  height: 45px;
+  padding: 8px;
+  background-color: #55606e;
+  color: #e9e9e9;
+}
+
+#main {
+  background: #fff;
+  width: 220px;
+  font-family: Ubuntu;
+}
+
+#main ul {
+  padding: 0;
+}
+
+#main ul li {
+  list-style: none;
+}
+
+#main ul li a {
+  display: block;
+  color: #55606e;
+  padding: 10px;
+}
+
+#main .hover li a:hover {
+  background: #66c3bc;
+  color: #fff;
+  text-decoration: underline;
+}
+
+#main .sab-menu li a {
+  color: #fff;
+  font-size: 14px;
+  list-style: disc;
+}
+
+#main .sab-menu li a:hover {
+  background-color: #48aea6;
+  text-decoration: underline;
+}
+
+#main > ul > li > ul {
+  background: #48aea6;
+  margin: 0;
+}
+
+#main > ul > li > ul li {
+  list-style: disc;
+  color: #fff;
+  margin-left: 40px;
+}
+
+#main > ul > li > ul li a {
+  padding-left: 0px;
+}
+
+.product-block {
+  position: relative;
+  width: 220px;
+  height: 350px;
+  background-color: #fff;
+  padding: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.product-block img {
+  border: 2px solid #e9e9e9;
+  margin: 8px;
+}
+
+.product-block p {
+  font-family: PT Sans;
+  margin-bottom: 0;
+  font-size: 16px;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn-buy {
+  position: absolute;
+  bottom: 3%;
+  left: 50%;
+  transform: translatex(-50%);
+  font-family: Ubuntu;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+}
+
+.btn-buy:hover {
+  background-color: #66c3bc;
+  border: none;
+}
+
+.tab-wrapper {
+  margin: 30px auto;
+  max-width: 700px;
+}
+
+.tab-menu {
+  max-width: 700px;
+  padding: 0;
+  margin: 0;
+}
+
+.tab-menu li {
+  text-align: center;
+  width: 227px;
+  position: relative;
+  background-color: #55606e;
+  color: #e9e9e9;
+  display: inline-block;
+  padding: 20px 40px;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 0;
+}
+
+.tab-menu li:hover {
+  color: #e9e9e9;
+}
+
+.tab-menu li.active {
+  color: #e9e9e9;
+  opacity: 1;
+}
+
+.tab-menu li.active:hover {
+  color: #e9e9e9;
+}
+
+.tab-content > div {
+  /*border-right: 1px solid $bady-bg;*/
+  background-color: #55606e;
+  box-sizing: border-box;
+  padding: 25px;
+  min-height: 250px;
+}
+
+.imgnophoto {
+  display: inline-block;
+  float: left;
+}
+
+.text-content {
+  font-family: Ubuntu;
+  line-height: 1.3;
+  font-size: 19px;
+  width: 400px;
+  float: right;
+  color: #e9e9e9;
+}
+
+.footer {
+  padding-top: 40px;
+  height: 100px;
+  background-color: #222222;
+  color: #e9e9e9;
+  font-family: Ubuntu;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+}
